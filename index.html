@@ -17,7 +17,7 @@
     <div class="game">
         <div class="user pt">
             <h3>YOU</h3>
-            <img src="img/rock1.png" alt="img">
+            <img id="user_img" src="img/paper.png" alt="img">
         </div>
         <div class="score pt ptc">
             <h2>START</h2>
@@ -27,7 +27,7 @@
         </div>
         <div class="bot pt">
             <h3>BOT</h3>
-            <img src="img/scissor3.png" alt="img">
+            <img  class="bot_pk" src="img/scissor.png" alt="img">
         </div>
     </div>
 
@@ -35,12 +35,14 @@
 
     <div class="pick">
         <h3 class="mm">MAKE YOUR MOVE</h3>
-        <button class="rock but"><img src="img/rock1.png" alt="img"></button>
-        <button class="paper but"><img src="img/paper2.png" alt="img"></button>
-        <button class="scissor but"><img src="img/scissor3.png" alt="img"></button>
+        <button moveType = "rock"  id ="rock" class="rock but"><img src="img/rock.png" alt="img"></button>
+        <button moveType = "paper"  id ="paper" class="paper but"><img src="img/paper.png" alt="img"></button>
+        <button moveType = "scissor" id ="scissor" class="scissor but"><img src="img/scissor.png" alt="img"></button>
         <br><br>
         <button class="set">RESET</button>
     </div>
+    <br>
+    <br><br><br><br><br>
 
 
     <script src="index.js"></script>
