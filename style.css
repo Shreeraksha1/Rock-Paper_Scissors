@@ -1,0 +1,93 @@
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.33em;
+    color: #B6A569;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+body {
+    background-color: #1B4D5C;
+}
+
+h3 {
+    font-family: 'Mako', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    color: #FAFAFA;
+}
+.mm{
+    margin-top: 3rem;
+}
+h2 {
+    font-family: 'Mako', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: 0.075em;
+    color: #B6A569;
+    text-align: center;
+}
+
+.big {
+    width: 85%;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.small {
+    width: 18px;
+    height: 0px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.pt {
+    margin: 1.5em 8rem;
+}
+
+.ptc {
+    margin-top: 4.5rem;
+}
+
+.game {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    height: 120px;
+    width: 120px;
+    padding: 0;
+    border: 0;
+    margin: 2rem 2rem;
+    border-radius: 50%;
+}
+
+.pick {
+    text-align: center;
+}
+.set{
+    text-align: center;  
+width: 100px;
+height: 40px;
+
+background: #B6A569;
+border-radius: 6px;
+font-family: 'Mako', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+border: 0;
+color: #502701;
+}
