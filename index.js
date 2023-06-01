@@ -67,5 +67,9 @@ document.querySelector(".set").onclick = function click(){
   user_score = 0;
   bot_score = 0;
   document.querySelector(".point").innerHTML = user_score + " - " + bot_score;
+
+  document.querySelector(".bot_pk").setAttribute("src", "img/bot.png");
+  document.querySelector("#user_img").setAttribute("src", "img/user.png");
+
 }
 
