@@ -36,20 +36,29 @@ for (var i = 0; i < all_button; i++) {
 
 var user, bot;
 
+var user_score = 0;
+var bot_score = 0;
+
 function result (){
+ 
     if (
         (user === "rock" && bot === "scissor") ||
         (user === "scissor" && bot === "paper") ||
         (user === "paper" && bot === "rock")
       ) {
+        user_score = ++user_score;
         document.querySelector("h2").innerHTML = "YOU WIN!!!";
+        document.querySelector(".point").innerHTML = user_score + " - " + bot_score;        
       } else if (
         (bot === "rock" && user === "scissor") ||
         (bot === "scissor" && user === "paper") ||
         (bot === "paper" && user === "rock")
       ) {
+        bot_score = ++bot_score;
         document.querySelector("h2").innerHTML = "YOU LOOSE...";
+        document.querySelector(".point").innerHTML = user_score + " - " + bot_score;  
       } else {
         document.querySelector("h2").innerHTML = "DRAW!!";
+        document.querySelector(".point").innerHTML = user_score + " - " + bot_score;  
       }
 }
