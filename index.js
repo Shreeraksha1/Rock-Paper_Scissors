@@ -62,3 +62,10 @@ function result (){
         document.querySelector(".point").innerHTML = user_score + " - " + bot_score;  
       }
 }
+
+document.querySelector(".set").onclick = function click(){
+  user_score = 0;
+  bot_score = 0;
+  document.querySelector(".point").innerHTML = user_score + " - " + bot_score;
+}
+
